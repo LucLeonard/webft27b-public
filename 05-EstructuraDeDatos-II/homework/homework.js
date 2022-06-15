@@ -132,10 +132,6 @@ this.numBuckets = 35;
 
  }
 
-
-
-
-
  HashTable.prototype.set = function (key, value){
   let indice = this.hash (key);  // Llama al metodo hash para obtener el valor del indice
 
@@ -179,5 +175,5 @@ HashTable.prototype.hasKey = function ( key ) {
 module.exports = {
   Node,
   LinkedList,
-  HashTable,
+  HashTable
 };
